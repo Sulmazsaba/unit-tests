@@ -1,0 +1,13 @@
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.exe
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.deps.json
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.runtimeconfig.json
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.runtimeconfig.dev.json
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.dll
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.pdb
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.csprojAssemblyReference.cache
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.AssemblyInfoInputs.cache
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.AssemblyInfo.cs
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.csproj.CoreCompileInputs.cache
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.dll
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.pdb
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.genruntimeconfig.cache
