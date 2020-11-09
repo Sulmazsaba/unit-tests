@@ -4,8 +4,9 @@ using Xunit;
 
 namespace CalculatorProgram.UnitTests
 {
-    public class UnitTest1
+    public class UnitTest1 
     {
+
         [Fact]
         public void Test_AddTwoElements()
         {
@@ -32,5 +33,6 @@ namespace CalculatorProgram.UnitTests
             Assert.Equal(10, result);
             //Assert.IsNotType<Decimal>(result);
         }
+
     }
 }

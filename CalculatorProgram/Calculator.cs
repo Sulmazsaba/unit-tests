@@ -5,7 +5,14 @@ using System.Text;
 namespace CalculatorProgram
 {
   public  class Calculator
-    {
+  {
+
+     public  Decimal Current { get; private set; }
+
+      public Calculator()
+      {
+           Current = 0;
+      }
 
         public decimal Sum(params decimal[] numbers)
         {
@@ -16,7 +23,14 @@ namespace CalculatorProgram
                 result += number;
             }
 
+            Current += result;
             return result;
+        }
+
+
+        public void Reset()
+        {
+            Current = 0;
         }
     }
 }
