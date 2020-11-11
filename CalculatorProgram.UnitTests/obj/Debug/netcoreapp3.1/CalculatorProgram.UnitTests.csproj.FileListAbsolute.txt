@@ -92,8 +92,10 @@ D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.csprojAssemblyReference.cache
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.AssemblyInfoInputs.cache
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.AssemblyInfo.cs
-D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.csproj.CoreCompileInputs.cache
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.csproj.CopyComplete
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.dll
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.pdb
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.genruntimeconfig.cache
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\obj\Debug\netcoreapp3.1\CalculatorProgram.UnitTests.csproj.CoreCompileInputs.cache
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\CalculatorProgram.UnitTests\bin\Debug\netcoreapp3.1\Moq.dll

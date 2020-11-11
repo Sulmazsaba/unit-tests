@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Moq;
 using Xunit;
 
 namespace CalculatorProgram.UnitTests
@@ -96,6 +97,26 @@ namespace CalculatorProgram.UnitTests
                 //assert,Then
                 Assert.IsType<decimal>(result);
             });
+        }
+
+        [Fact]
+        public void Test_MaintenanceDateHit()
+        {
+            //Arrange
+            var mockDateTime=new Moq.Mock<IDateTimeProvider>();
+            mockDateTime.Setup(mock => mock.GetNow())
+                .Returns(()=>new DateTime(2100,1,1,0,0,0));
+
+            var exception = Assert.Throws<InvalidOperationException>(() =>
+            {
+                var calculator=new Calculator(mockDateTime.Object);
+            });
+
+
+            //Assert
+            Assert.True(exception.Message.Contains("Date Time Error"));
+            mockDateTime.Verify(mock=>mock.GetNow(),Times.Once);
+
         }
 
    }

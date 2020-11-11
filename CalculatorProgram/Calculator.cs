@@ -10,9 +10,16 @@ namespace CalculatorProgram
 
      public  decimal Current { get; private set; }
 
-      public Calculator()
+     public Calculator()
+     {
+         
+          Current = 0;
+     }
+      public Calculator(IDateTimeProvider dateTimeProvider)
       {
-           Current = 0;
+          if(dateTimeProvider.GetNow().CompareTo(new DateTime(2100,1,1,0,0,0))>=0)
+              throw new InvalidOperationException("Date Time Error");
+
       }
 
         public decimal Sum(params decimal[] numbers)
