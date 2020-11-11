@@ -18,3 +18,7 @@ D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\obj\Debug\net
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\obj\Debug\netcoreapp3.1\WebCalculator.dll
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\obj\Debug\netcoreapp3.1\WebCalculator.pdb
 D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\obj\Debug\netcoreapp3.1\WebCalculator.genruntimeconfig.cache
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\bin\Debug\netcoreapp3.1\CalculatorProgram.exe
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\bin\Debug\netcoreapp3.1\CalculatorProgram.dll
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\bin\Debug\netcoreapp3.1\CalculatorProgram.pdb
+D:\.NetCoreProjects\UnitTestSample\CalculatorProgram\WebCalculator\obj\Debug\netcoreapp3.1\WebCalculator.csproj.CopyComplete

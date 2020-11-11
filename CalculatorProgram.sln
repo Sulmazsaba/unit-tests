@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorProgram", "CalculatorProgram\CalculatorProgram.csproj", "{42D2FE6B-36F2-46B6-A50A-868705D411CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorProgram", "CalculatorProgram\CalculatorProgram.csproj", "{42D2FE6B-36F2-46B6-A50A-868705D411CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculator", "WebCalculator\WebCalculator.csproj", "{D0A21ADC-AC12-41C7-B5C3-9B1DEFE770EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCalculator", "WebCalculator\WebCalculator.csproj", "{D0A21ADC-AC12-41C7-B5C3-9B1DEFE770EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorProgram.UnitTests", "CalculatorProgram.UnitTests\CalculatorProgram.UnitTests.csproj", "{54F80422-285A-4EC5-9534-93217A1B7856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorProgram.UnitTests", "CalculatorProgram.UnitTests\CalculatorProgram.UnitTests.csproj", "{54F80422-285A-4EC5-9534-93217A1B7856}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.IntegrationTests", "Calculator.IntegrationTests\Calculator.IntegrationTests.csproj", "{B0442543-533F-44F8-A8D7-597F12A9233C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculator.IntegrationTests", "WebCalculator.IntegrationTests\WebCalculator.IntegrationTests.csproj", "{F96A58F8-063B-47C0-B53F-50BE20D5C39D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{54F80422-285A-4EC5-9534-93217A1B7856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54F80422-285A-4EC5-9534-93217A1B7856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54F80422-285A-4EC5-9534-93217A1B7856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0442543-533F-44F8-A8D7-597F12A9233C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0442543-533F-44F8-A8D7-597F12A9233C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0442543-533F-44F8-A8D7-597F12A9233C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0442543-533F-44F8-A8D7-597F12A9233C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96A58F8-063B-47C0-B53F-50BE20D5C39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96A58F8-063B-47C0-B53F-50BE20D5C39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96A58F8-063B-47C0-B53F-50BE20D5C39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96A58F8-063B-47C0-B53F-50BE20D5C39D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

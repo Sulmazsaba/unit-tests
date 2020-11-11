@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "WebCalculator/1.0.0": {
         "dependencies": {
+          "CalculatorProgram": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,6 +313,14 @@
         },
         "compile": {
           "WebCalculator.dll": {}
+        }
+      },
+      "CalculatorProgram/1.0.0": {
+        "runtime": {
+          "CalculatorProgram.dll": {}
+        },
+        "compile": {
+          "CalculatorProgram.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2010,6 +2019,11 @@
   },
   "libraries": {
     "WebCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalculatorProgram/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
