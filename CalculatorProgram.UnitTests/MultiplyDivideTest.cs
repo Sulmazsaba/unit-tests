@@ -64,5 +64,39 @@ namespace CalculatorProgram.UnitTests
 
         }
 
+        [Fact]
+        public void Test_DivideByZero()
+        {
+            //arrange
+            var calculator=new Calculator();
+
+            Assert.Throws<System.DivideByZeroException>(() =>
+            {
+
+                //act
+                var result = calculator.Divide(1, 0);
+
+                //assert
+                Assert.IsType<decimal>(result);
+            });
+
+        }
+
+        [Fact]
+        public void Test_Validation()
+        {
+            // arrange
+            var calculator=new Calculator();
+
+            Assert.Throws<InvalidOperationException>(() =>
+            {
+                //act
+                var result = calculator.Divide(decimal.MaxValue, decimal.MaxValue);
+
+                //assert,Then
+                Assert.IsType<decimal>(result);
+            });
+        }
+
    }
 }

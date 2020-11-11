@@ -50,6 +50,7 @@ namespace CalculatorProgram
         }
         public decimal Divide(params decimal[] numbers)
         {
+            ValidateNumbers(numbers);
             decimal result=numbers[0];
             for (int i = 1; i <= numbers.Length-1; i++)
             {
@@ -57,6 +58,14 @@ namespace CalculatorProgram
             }
 
             return result;
+        }
+
+        private void ValidateNumbers(params decimal[] numbers)
+        {
+            if (numbers.Any(number => number==decimal.MaxValue))
+            {
+                throw new InvalidOperationException();
+            }
         }
   }
 }
